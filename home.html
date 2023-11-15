@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Josh's Portfolio</title>
+  <link href="styles.css" rel="stylesheet" type="text/css"/>
+</head>
+    <body>
+        <header class ="container" >
+          <div class ="page-header">
+            <div class ="left-side">
+              <div class="brand">
+                <div>JOSHUA AUSTIN</div>
+              </div> 
+            </div>
+
+            <div class ="middle">
+              <div class ="header">
+                  <a href ="home.html" style="color:orangered;">Home</a>
+              </div>
+              <div class ="header">
+                  <a href ="#about">About</a>
+              </div>
+              <div class ="header">
+                    <a href ="portfolio.html">Projects</a>
+              </div>
+            </div>
+
+            <div class ="right-side">
+            <label class="switch">
+              <input type="checkbox" id="darkModeToggle">
+              <span class='slider round'></span>            
+            </label>
+            </div>
+          </div>
+        </header>
+      <!--About-->
+        <section class="About">
+          <div class="main">
+            <div class="detail">
+              <h5 id = "about">What's Up?</h5>
+              <h1>I'm <span style="color:orangered;">Josh</span></h1>
+              <p>I'm a Professional Software Developer looking to prove myself by crafting digital solutions that impact millions.</p>
+              <p>That's the world of a Software Engineer, and it's a world I'm passionately drawn to. </p>
+              <div class="card">
+                <img class="myself" src="josh.png" alt="">                  
+              </div>
+            </div>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/joshua-austin-75a465195/" target = "_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://github.com/yojoshhhh" target = "_blank"><ion-icon name="logo-github"></ion-icon></a>
+              </div>  
+            </div>
+        </section>
+      <!--CV-->
+      <section class="CV">
+        
+        <button onclick="location.href='CV.docx';">
+        <span class="circle1"></span>
+        <span class="circle2"></span>
+        <span class="circle3"></span>
+        <span class="circle4"></span>
+        <span class="circle5"></span>
+        <span class="text">CV</span>
+        </button>
+        
+        </section>
+
+      <!--Projects-->
+      <section class="Projects">
+
+      </section>
+      <script src = "darkmode.js"></script>  
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
+  
