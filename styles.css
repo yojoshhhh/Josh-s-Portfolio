@@ -196,5 +196,29 @@ button {
     transform: translate(-50%, -50%) scale(4);
     transition: 1.5s ease;
   }
-    
+
+/* Projects*/
+.Projects{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pokedex{
+    width: 300px;
+    height: 500px;
+    position:relative;
+    top: 300px;
+}
+.pokemongo{
+    width: 300px;
+    height: 500px;
+    position:relative;
+    top: 300px;
+}
+.bbg{
+    width: 300px;
+    height: 500px;
+    position:relative;
+    top: 300px;
+}
 
